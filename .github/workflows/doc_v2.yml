@@ -1,0 +1,11 @@
+name: Deploy Doc
+on:
+  push:
+    branches:
+      - main
+# jobs:
+#   call-workflow-passing-data:
+#     uses: octo-org/example-repo/.github/workflows/reusable-workflow.yml@main
+#     with:
+#       config-path: .github/labeler.yml
+#     secrets: inherit
