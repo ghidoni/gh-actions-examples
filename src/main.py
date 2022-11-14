@@ -1,7 +1,7 @@
 """Dummy Module"""
 
 
-def test_func(inputX):
+def test_func(input):
     """Dummy Functions
 
     Args:
@@ -10,4 +10,4 @@ def test_func(inputX):
     Returns:
         int: number input squared
     """
-    return inputX**2
+    return input**2
